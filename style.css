@@ -1,0 +1,154 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@500&display=swap');
+
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 50px 50px 50px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    right: 100px;
+    font-family: orbitron;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 500;
+
+    
+}
+.list-item:hover{
+    font-weight: bold;
+
+}
+.search-icon{
+    position: relative;
+    right: 50px;
+}
+
+.nav-button{
+    background-color:#ffffff;
+    color: #808080;
+    position: relative;
+    bottom: 40px;
+    font-size: large;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px 40px 5px 40px;
+    
+
+}
+.hero-container-right{
+    text-align: center;
+    /* max-width: 80ch;
+    word-wrap: break-word; */
+    margin-left: 700px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 800px;
+    
+
+    }
+
+    .globe img{
+        position: relative;
+        bottom: 375px;
+        left: 250px;
+        height: 70px;
+    }
+
+   .square {
+    position: relative;
+    left: 125px;
+    top: 175px;
+   }
+   .globe + div img{
+   position: relative;
+   bottom: 400px;
+   left: 50px;
+   height: 500px;
+    }
+
+    .hero-heading{
+        font-family: orbitron;
+        font-size: 50px;
+        white-space: nowrap;
+        position: relative;
+        right: 70px;
+        bottom: 30px;
+        
+    }
+    
+    .square + span img{
+        float: right;
+        margin-right: 150px;
+        height: 70px;
+        margin-top: 20px;
+        
+    }
+    
+    .star + .star img{
+        position: relative;
+        left: 190px;
+        top: 150px;
+        height: 50px;
+    }
+    .hero-description{
+        position: relative;
+        bottom: 20px;
+        color: #808080;
+        font-family: montserrat;
+        font-size: small;
+
+    }
+    .contact-heading{
+        position: relative;
+        top: 150px;
+        color: #808080;
+        font-family: montserrat;
+    }
+    
+    .icons{
+        position: relative;
+        top: 150px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    .button-email, .button-join{
+        position: relative;
+        top: 70px;
+        font-family: orbitron;
+    }
+    .button-email{
+        background-color: #ffffff;
+        color: #808080;
+        font-size: large;
+        padding: 5px 25px 5px 25px;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        
+    }
+    .button-join{
+        background-color: #000000;
+        color: #ffffff;
+        font-size: large;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+   
+
+
+    
